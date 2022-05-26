@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hocuspocus/server": "^1.0.0-alpha.102",
+    "@tiptap/extension-underline": "^2.0.0-beta.23",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "scripts": {
+    "start": "yarn ts-node --project ./tsconfig.json main.ts"
+  }
+}

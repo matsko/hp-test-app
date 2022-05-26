@@ -1,0 +1,1 @@
+yarn --cwd ./web start
