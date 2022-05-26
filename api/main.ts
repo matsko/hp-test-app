@@ -33,7 +33,6 @@ const server = Server.configure({
 			"default",
 			TIP_TAP_EXTENSIONS,
 		);
-		console.log('go!');
 		return ydoc;
 	},
 })
